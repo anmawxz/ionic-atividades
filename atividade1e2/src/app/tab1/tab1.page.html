@@ -1,0 +1,22 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Projeto 1 - Mobile
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Tab 1</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div class="alerta-style">
+    <ion-button id="present-alert" class="alerta-btn">Alerta</ion-button>
+    <ion-alert trigger="present-alert" header="ALERTA" subHeader="Alerta Importante" message="Isso é um alerta!!" [buttons]="alertButtons">
+    </ion-alert>
+  </div>
+  
+</ion-content>

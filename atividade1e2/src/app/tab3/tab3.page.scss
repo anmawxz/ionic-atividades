@@ -1,0 +1,19 @@
+div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+ion-item {
+    --padding-start: 0;
+  }
+
+
+
+
+.img-totem{
+    width: 300px;
+    height: 300px;
+}
